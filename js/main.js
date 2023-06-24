@@ -98,52 +98,52 @@ $(window).scroll(function() {
         $('.unbeatable-one').css("transition","0.8s");
    
     } 
-    if(scrollTop > healthyoff-190) {
+    if(scrollTop < healthyoff-190) {
         $('.healthy-food-one').css("opacity","1");
         $('.healthy-food-one').css("margin-right","0");
         $('.healthy-food-one').css("transition","0.8s");
     
     } 
-    if(scrollTop > testioff-190) {
+    if(scrollTop < testioff-190) {
         $('.testimonial-one').css("opacity","1");
         $('.testimonial-one').css("margin-right","0");
         $('.testimonial-one').css("transition","0.8s");
       
     } 
-    if(scrollTop > counteroff) {
+    if(scrollTop < counteroff) {
         $('.counter-one ').css("opacity","1");
         $('.counter-one ').css("margin-right","0");
         $('.counter-one ').css("transition","0.8s");
         $('.counter-one ').css("transitionDelay","0.8s");
     
     } 
-    if(scrollTop > projectoff-190) {
+    if(scrollTop < projectoff-190) {
         $('.project-one').css("opacity","1");
         $('.project-one ').css("margin-right","0");
         $('.project-one ').css("transition","0.8s");
         $('.project-one').css("transitionDelay","0.8s");
        
     } 
-    if(scrollTop > contactoff) {
+    if(scrollTop < contactoff) {
         $('.contact-one').css("opacity","1");
         $('.contact-one ').css("margin-right","0");
         $('.contact-one ').css("transition","0.8s");
         $('.contact-one ').css("transitionDelay","0.8s");
       
     } 
-    if(scrollTop > blogoff) {
+    if(scrollTop < blogoff) {
         $('.blog-one').css("opacity","1");
         $('.blog-one ').css("margin-right","0");
         $('.blog-one ').css("transition","0.8s");
         
     } 
-    if(scrollTop > ctaoff-190) {
+    if(scrollTop < ctaoff-190) {
         $('.cta-one').css("opacity","1");
         $('.cta-one ').css("margin-right","0");
         $('.cta-one ').css("transition","0.8s");
        
     } 
-    if(scrollTop > footeroff-190) {
+    if(scrollTop < footeroff-190) {
         $('.site-footer').css("opacity","1");
         $('.site-footer ').css("margin-right","0");
         $('.site-footer ').css("transition","0.8s");
