@@ -68,7 +68,7 @@ $(window).scroll(function() {
         }
         let z = setInterval(counterFour , 100);
     }
-    if(scrollTop > Featureoff-190) {
+    if(scrollTop == Featureoff-190) {
         $('.Feature').css("opacity","1");
         $('.Feature').css("margin-right","0");
         $('.Feature').css("transition","0.6s");
