@@ -98,7 +98,7 @@ $(window).scroll(function() {
         $('.unbeatable-one').css("transition","0.8s");
    
     } 
-    if(scrollTop < healthyoff-190) {
+    if(scrollTop < healthyoff) {
         $('.healthy-food-one').css("opacity","1");
         $('.healthy-food-one').css("margin-right","0");
         $('.healthy-food-one').css("transition","0.8s");
