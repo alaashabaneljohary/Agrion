@@ -68,12 +68,12 @@ $(window).scroll(function() {
         }
         let z = setInterval(counterFour , 100);
     }
-    if(scrollTop == Featureoff-190) {
+    if(scrollTop > Featureoff-190) {
         $('.Feature').css("opacity","1");
         $('.Feature').css("margin-right","0");
         $('.Feature').css("transition","0.6s");
     }
-    if(scrollTop == Aboutoff-190) {
+    if(scrollTop > Aboutoff-190) {
         $('.about-us').css("opacity","1");
         $('.about-us').css("margin-right","0");
         $('.about-us').css("transition","0.8s");
